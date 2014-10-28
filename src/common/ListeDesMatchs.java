@@ -40,6 +40,7 @@ public class ListeDesMatchs {
 		if(liste.size() < nbMatchsMaximum)
 		{
 			liste.add(match);
+			match.startClock();
 		}
 		else
 			System.out.print("Match maximum atteint");
