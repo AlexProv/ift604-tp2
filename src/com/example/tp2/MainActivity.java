@@ -1,4 +1,4 @@
-package client.activity;
+package com.example.tp2;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -54,7 +54,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
 
-	private String ip ="10.238.113.92";
+	private String ip ="10.0.2.2";
 	private int port1 = 9876;
 	private Client client;
 	private InitialiseurDeRequete idr;

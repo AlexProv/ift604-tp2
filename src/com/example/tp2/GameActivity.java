@@ -1,4 +1,4 @@
-package client.activity;
+package com.example.tp2;
 
 import com.example.tp2.R;
 import com.example.tp2.R.id;
